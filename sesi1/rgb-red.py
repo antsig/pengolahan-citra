@@ -3,7 +3,7 @@ import numpy as np
 import imageio  as img
 import matplotlib.pyplot as plt
 
-image = img.imread("D:\source.jpg")
+image = img.imread("https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png")
 
 red = image[:,:,0]
 green = image[:,:,1]
