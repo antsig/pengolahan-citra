@@ -19,16 +19,16 @@ imgBlue = np.zeros_like(image)
 imgBlue[:,:,2] = blue
 
 plt.figure(figsize=(10,10))
-plt.subplot(4,1,1)
+plt.subplot(2,2,1)
 plt.imshow(image)
 
-plt.subplot(4,1,2)
+plt.subplot(2,2,2)
 plt.imshow(imgRed)
 
-plt.subplot(4,1,3)
+plt.subplot(2,2,3)
 plt.imshow(imgGreen)
 
-plt.subplot(4,1,4)
+plt.subplot(2,2,4)
 plt.imshow(imgBlue)
 
 plt.show()
